@@ -1,0 +1,65 @@
+{
+    "Employees": [{
+            "employeeid": "11111",
+            "firstname": "Mahima",
+            "lastname": "Sunmoriya",
+            "department": "Sales",
+            "emailid": "ms34126p@pace.edu",
+			"project": "Wells Fargo",
+            "salary": "$3000"
+        },
+		{
+            "employeeid": "11111",
+            "firstname": "Mahima",
+            "lastname": "Sunmoriya",
+            "department": "Sales",
+            "emailid": "ms34126p@pace.edu",
+			"project": "Walmart",
+            "salary": "$3500"
+        },
+		{
+            "employeeid": "11111",
+            "firstname": "Mahima",
+            "lastname": "Sunmoriya",
+            "department": "Computer Science",
+            "emailid": "ms34126p@pace.edu",
+			"project": "Avis Budget Group",
+            "salary": "$4000"
+        },
+        {
+            "employeeid": "22222",
+            "firstname": "Pawan",
+            "lastname": "Gupta",
+            "department": "Information Technology",
+            "emailid": "pg12345@pace.edu",
+			"project": "Charles Shwab",
+            "salary": "$10000"
+        },
+        {
+            "employeeid": "33333",
+            "firstname": "Krupa",
+            "lastname": "Savaliya",
+            "department": "Finance",
+            "emailid": "ks56412p@pace.edu",
+			"project": "TD",
+            "salary": "$7000"
+        },
+        {
+            "employeeid": "44444",
+            "firstname": "Akash",
+            "lastname": "Chaudhari",
+            "department": "Electronics And Telecommunication",
+            "emailid": "ac45623p@pace.edu",
+			"project": "Cenveo",
+            "salary": "$6999"   },
+        {
+            "employeeid": "55555",
+            "firstname": "Paras",
+            "lastname": "Sunmoriya",
+            "department": "Banking",
+            "emailid": "ps86253p@pace.edu",
+			"project": "Oriental Bank Of Commerce",
+            "salary": "$10000"
+        }
+    ]
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+      <style type="text/css">
+         body {
+         background-image: url("https://lh3.googleusercontent.com/proxy/l0cHGhKK7Jbb3-EhU214oDQtWjGVTtbtcgidY7lJmtgR7ST769ME4cGbA0lzGpPL6Uh8aERCijd6Bpe_RAxl8faFdT4MGfQS_GJdmHNYI1ddwiP-lviCopzkzvS87wewjabXGra2O_MMAxVfWcO-qynK8pRyG4ZegQ");
+         background-size: cover;
+         font-size: 18px;
+		 }
+         .table td, .table th {
+         border-top: 1px solid black;
+		          }
+         h1 {
+         text-align: center;
+         background-color: #eb4034;
+         height: 40%;
+         }
+          a:link {
+         color: blue;
+         }
+         a:visited {
+         color: green;
+         }
+         a:hover {
+         color: red;
+         font-size: 22px;
+         }
+         a:active {
+         color: yellow;
+         }
+         
+      </style>
+   </head>
+   <body>
+      <header>
+         <h1>Project Details</h1>
+      </header>
+      <table class="table">
+	     <thead>
+		    <tr>
+               <th scope="col"; style="color:white;">ID</th>
+               <th scope="col"; style="color:white;">FirstName</th>
+               <th scope="col"; style="color:white;">LastName</th>
+               <th scope="col"; style="color:white;">Project </th>
+            </tr>
+		 </thead>
+         <tbody>
+            {% for data in list_data_prj %}
+            <tr>
+               <td scope="row"> <a href="/Employees/{{ data.employeeid }}"> {{ data.employeeid }} </a> </td>
+               <td scope="row"> {{ data.firstname }} </td>
+               <td scope="row"> {{ data.lastname }} </td>
+               <td scope="row"> {{ data.project}} </td>
+            </tr>
+            {% endfor %}
+			
+         </tbody>
+      </table>
+   </body>
+</html>
