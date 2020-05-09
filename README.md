@@ -22,7 +22,7 @@ Steps to run RESTful web service:
 
 * You can check the image created using "docker images". You will find the image employees-image under the list.
 
-* Run the created students-image image inside a container using the following command
+* Run the created employees-image image inside a container using the following command
   "docker run -d -p 5000:5000 --name employees-container employees-image" 
 
 * Check running docker container by "docker ps"
